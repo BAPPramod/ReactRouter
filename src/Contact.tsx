@@ -1,5 +1,3 @@
-const Contact: React.FC = () => {
-  return <h2 style={{ textAlign: "center" }}>This is contact page</h2>;
-};
-
-export default Contact;
+export default function Contact() {
+  return <h2 style={{ textAlign: "center" }}>Email: myapp@contact.com</h2>;
+}
